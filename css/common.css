@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 900;
+  font-display: swap;
+  src: local("Pretendard Black"),
+    url(../font/Pretendard-Black.woff2) format("woff2"),
+    url(../font/Pretendard-Black.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 800;
+  font-display: swap;
+  src: local("Pretendard ExtraBold"),
+    url(../font/Pretendard-ExtraBold.woff2) format("woff2"),
+    url(../font/Pretendard-ExtraBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-display: swap;
+  src: local("Pretendard Bold"),
+    url(../font/Pretendard-Bold.woff2) format("woff2"),
+    url(../font/Pretendard-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 600;
+  font-display: swap;
+  src: local("Pretendard SemiBold"),
+    url(../font/Pretendard-SemiBold.woff2) format("woff2"),
+    url(../font/Pretendard-SemiBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-display: swap;
+  src: local("Pretendard Medium"),
+    url(../font/Pretendard-Medium.woff2) format("woff2"),
+    url(../font/Pretendard-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-display: swap;
+  src: local("Pretendard Regular"),
+    url(../font/Pretendard-Regular.woff2) format("woff2"),
+    url(../font/Pretendard-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 300;
+  font-display: swap;
+  src: local("Pretendard Light"),
+    url(../font/Pretendard-Light.woff2) format("woff2"),
+    url(../font/Pretendard-Light.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 200;
+  font-display: swap;
+  src: local("Pretendard ExtraLight"),
+    url(../font/Pretendard-ExtraLight.woff2) format("woff2"),
+    url(../font/Pretendard-ExtraLight.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 100;
+  font-display: swap;
+  src: local("Pretendard Thin"),
+    url(../font/Pretendard-Thin.woff2) format("woff2"),
+    url(../font/Pretendard-Thin.woff) format("woff");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  border: 0;
+  outline: 0;
+}
+:root {
+  --black1: #000;
+  --black2: #111;
+  --black3: #222;
+  --black4: #333;
+  --white1: #fff;
+  --white2: #f5f5f5;
+  --white3: #f0f0f0;
+  --white4: #eee;
+  --white5: #ddd;
+  --main1: #ffcb05;
+  --main2: #3564ad;
+  --gray1: #555;
+  --gray2: #666;
+  --gray3: #777;
+  --gray4: #888;
+  --gray5: #999;
+}
+a {
+  text-decoration: none;
+  color: var(--black1);
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  border: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+h1 {
+  display: none;
+}
+caption {
+  position: absolute;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  text-indent: -9999px;
+}
+input {
+  font-family: "Pretendard";
+}
+
+button {
+  background: none;
+  font-family: "Pretendard";
+}
+body {
+  font-family: "Pretendard";
+}
+.clear::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.mo {
+  display: none;
+}
+
+/* 기본세팅 */
+/* header {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+} */
+
+header .member {
+  background-color: var(--wihte4);
+}
+
+header .member ul {
+  padding: 15px 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header .member ul li a {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--black4);
+  transition: color 0.3s ease-in-out;
+}
+header .member ul li a:hover {
+  color: var(--main2);
+}
+
+header .headerWrap .naviBox {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header .headerWrap .pc .naviBox .logo img {
+  max-width: 200px;
+}
+
+header .headerWrap .pc .naviBox ul {
+  display: flex;
+  gap: 0 40px;
+}
+
+header .headerWrap .pc .naviBox ul li a {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+header .headerWrap .pc .naviBox ul li a:hover {
+  color: var(--main2);
+}
+
+/* 헤더 PC */
+
+footer {
+  background-color: var(--black2);
+}
+
+footer .insta {
+  background-color: var(--gray1);
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 0 30px;
+}
+
+footer .insta a {
+  display: block;
+}
+
+footer .insta img {
+  max-width: 43px;
+}
+
+footer .siteInfo {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+footer .siteInfo .companyInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+footer .siteInfo .companyInfo p {
+  color: var(--white1);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer .siteInfo .copy {
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer .siteInfo .copy p {
+  font-size: 13px;
+  color: var(--white1);
+  font-weight: 600;
+}
+
+/* 푸터 PC */

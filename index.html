@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="Keywords" content="포켓몬스터" />
+    <meta name="Description" content="포켓몬스터" />
+    <meta name="Author" content="강용구" />
+    <meta name="Generator" content="Vscode" />
+    <title>포켓몬스터 - 강용구</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="member">
+        <div class="in">
+          <ul>
+            <li><a href="">로그인</a></li>
+            <li><a href="">회원가입</a></li>
+          </ul>
+        </div>
+        <div class="out" style="display: none">
+          <ul>
+            <li><a href="">로그아웃</a></li>
+            <li><a href="">정보수정</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="headerWrap">
+        <div class="pc">
+          <div class="naviBox">
+            <div class="logo">
+              <h1>포켓몬스터</h1>
+              <a href="/"><img src="image/logo.png" alt="logo" /></a>
+            </div>
+            <nav class="nav">
+              <ul>
+                <li><a href="dex.html">포켓몬 도감</a></li>
+                <li><a href="game.html">포켓몬 게임</a></li>
+                <li><a href="ani.html">애니메이션</a></li>
+                <li><a href="news.html">포켓몬 소식</a></li>
+                <li><a href="shop.html">포켓몬 상품</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="mo"></div>
+      </div>
+    </header>
+
+    <section>
+      <div id="section1">
+        <div class="mSlide">
+          <div class="text">
+            <div class="swiper-container text-slide">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container textBox">
+                    <h2>포켓몬스터 스칼렛 바이올렛 게임 출시</h2>
+                    <p>2022년 11월 18일(금) 전 세계 동시 발매</p>
+                    <a href="">바로가기</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container textBox">
+                    <h2>포켓몬스터 스칼렛 바이올렛 애니메이션 방영 예정</h2>
+                    <p>
+                      한지우 은퇴??? <br />스칼렛바이올렛은 <br />새로운
+                      주인공과 함께???
+                    </p>
+                    <a href="">바로가기</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container textBox">
+                    <h2>
+                      포켓몬”과 인기 K-POP 아티스트 “ITZY”의 초대형 타이업 결정!
+                    </h2>
+                    <p>
+                      1월 28일(금) 발매되는 Nintendo Switch 소프트웨어 「Pokémon
+                      LEGENDS 아르세우스」의 ITZY가 등장하는 새로운 광고 영상이
+                      2월 9일(수)부터 공개될 예정입니다.
+                    </p>
+                    <a href="">바로가기</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container textBox">
+                    <h2>「내가왔덕 고라파덕」카카오 이모티콘 출시!!</h2>
+                    <p>
+                      고라파덕 카카오 이모티콘은 카카오 이모티콘 상품에서
+                      만나보세요!!
+                    </p>
+                    <a href="">바로가기</a>
+                  </div>
+                </div>
+              </div>
+              <div class="arrow">
+                <div class="slideBtn"></div>
+                <div class="swiper-button-prev swiper-button"></div>
+                <div class="swiper-button-next swiper-button"></div>
+              </div>
+            </div>
+          </div>
+          <div class="img">
+            <div class="swiper-container img-slide">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container imgBox">
+                    <a href=""><img src="image/mSlide1.png" alt="" /></a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container imgBox">
+                    <a href=""><img src="image/mSlide2.png" alt="" /></a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container imgBox">
+                    <a href=""><img src="image/mSlide3.png" alt="" /></a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container imgBox">
+                    <a href=""><img src="image/mSlide4.png" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        var swiperTopNum = $(".img-slide").find(".swiper-slide");
+        var swiperSubNum = $(".text-slide").find(".text-slide");
+
+        var galleryTop = new Swiper(".img-slide", {
+          initialSlide: 0,
+          spaceBetween: 0,
+          loop: true,
+          speed: 800,
+          autoplay: { delay: 3000, disableOnInteraction: false },
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 1.2,
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 80,
+            depth: 200,
+            modifier: 1,
+            slideShadows: false,
+            loop: true,
+            loopAdditionalSlides: 1,
+            loopedSlides: swiperTopNum.length,
+          },
+
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            type: "bullets",
+            renderBullet: function (index, className) {
+              return (
+                '<span class="' + className + '">' + (index + 1) + "</span>"
+              );
+            },
+          },
+        });
+
+        var galleryThumbs = new Swiper(".text-slide", {
+          initialSlide: 0,
+          spaceBetween: 0,
+          speed: 800,
+          autoplay: { delay: 3000, disableOnInteraction: false },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          centeredSlides: true,
+          slidesPerView: "auto",
+          touchRatio: 0.2,
+          slideToClickedSlide: true,
+          loop: true,
+          loopedSlides: swiperSubNum.length,
+        });
+
+        galleryTop.controller.control = galleryThumbs;
+        galleryThumbs.controller.control = galleryTop;
+
+        $(".slideBtn").click(function () {
+          if ($(this).hasClass("on")) {
+            galleryTop.autoplay.start();
+            galleryThumbs.autoplay.start();
+          } else {
+            galleryTop.autoplay.stop();
+            galleryThumbs.autoplay.stop();
+          }
+          $(this).toggleClass("on");
+        });
+      </script>
+    </section>
+
+    <footer>
+      <div class="insta">
+        <a
+          href="https://www.instagram.com/pokemon_korea_official/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+          target="_blank"
+          ><img src="image/icon_insta.png" alt="포켓몬스터 인스타그램 바로가기"
+        /></a>
+        <a href="https://www.youtube.com/user/PokemonKoreaInc" target="_blank"
+          ><img src="image/icon_youtube.png" alt="포켓몬스터 유튜브 바로가기"
+        /></a>
+        <a href="https://x.com/PokemonKoreaInc?mx=2" target="_blank"
+          ><img src="image/icon_x.png" alt="포켓몬스터 X 바로가기"
+        /></a>
+        <a href="https://www.tiktok.com/@pokemon_kor" target="_blank"
+          ><img src="image/icon_tiktok.png" alt="포켓몬스터 틱톡 바로가기"
+        /></a>
+      </div>
+
+      <div class="siteInfo">
+        <div class="companyInfo">
+          <p>주소:(주)포켓몬코리아 경기도 용인시 수지구 신수로 801, 4층</p>
+          <p>대표이사:임재범</p>
+          <p>개인정보관리책임자:임재범</p>
+          <p>사업자등록번호:113-86-07676</p>
+          <p>대표전화:031-272-0108</p>
+        </div>
+        <div class="copy">
+          <p>
+            ©2024 Pokémon. ©1995-2024 Nintendo/Creatures Inc./GAME FREAK inc.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
