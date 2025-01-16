@@ -1,0 +1,146 @@
+[
+  {
+    "title": "포켓몬스터스칼렛・바이올렛 제로의 비보",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb1.png",
+    "date": "2023년 2월",
+    "device": "Nintendo Switch",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "64,800"
+  },
+  {
+    "title": "포켓몬스터스칼렛・바이올렛",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb2.png",
+    "date": "2022년 11월",
+    "device": "Nintendo Switch",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "64,800"
+  },
+  {
+    "title": "Pokémon LEGENDS 아르세우스",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb3.png",
+    "date": "2022년 1월",
+    "device": "Nintendo Switch",
+    "company": "한국닌텐도(주)",
+    "Genre": "액션 RPG",
+    "price": "64,800"
+  },
+  {
+    "title": "포켓몬스터 브릴리언트 다이아몬드・샤이닝 펄",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb4.png",
+    "date": "2021년 11월",
+    "device": "Nintendo Switch",
+    "company": "한국닌텐도(주)",
+    "Genre": "액션 RPG",
+    "price": "64,800"
+  },
+  {
+    "title": "포켓몬스터소드・실드 익스팬션 패스",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb5.png",
+    "date": "2020년 01월",
+    "device": "Nintendo Switch",
+    "company": "한국닌텐도(주)",
+    "Genre": "액션 RPG",
+    "price": "29,900"
+  },
+  {
+    "title": "포켓몬스터소드・실드",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb6.png",
+    "date": "2019년 11월",
+    "device": "Nintendo Switch",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "64,800"
+  },
+  {
+    "title": "포켓몬스터 레츠고! 피카츄・레츠고! 이브이",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb7.png",
+    "date": "2018년 11월",
+    "device": "Nintendo Switch",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "64,800"
+  },
+  {
+    "title": "포켓몬스터 울트라썬·울트라문",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb8.png",
+    "date": "2017년 11월",
+    "device": "닌텐도 3DS 본체 시리즈",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "49,000"
+  },
+  {
+    "title": "포켓몬스터썬·문",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb9.png",
+    "date": "2016년 11월",
+    "device": "닌텐도 2DS, 3DS XL, 3DS, NEW 3DS",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "49,000"
+  },
+  {
+    "title": "포켓몬스터 오메가루비·알파사파이어",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb10.png",
+    "date": "2014년 11월",
+    "device": "닌텐도 2DS, 3DS XL, 3DS",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "44,000"
+  },
+  {
+    "title": "포켓몬스터 X·Y",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb11.png",
+    "date": "2014년 10월",
+    "device": "닌텐도 3DS XL/3DS",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "44,000"
+  },
+  {
+    "title": "포켓몬스터 블랙 2・포켓몬스터 화이트 2",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb12.png",
+    "date": "2012년 11월",
+    "device": "닌텐도 DS 시리즈, 닌텐도 3DS, 닌텐도 3DS XL",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "39,000"
+  },
+  {
+    "title": "포켓몬스터 블랙·화이트",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb13.png",
+    "date": "2011년 4월",
+    "device": "닌텐도 DS 시리즈, 닌텐도 3DS, 닌텐도 3DS XL",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "39,000"
+  },
+  {
+    "title": "포켓몬스터 하트골드·소울실버",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb14.png",
+    "date": "2010년 2월",
+    "device": "닌텐도 DS 시리즈, 닌텐도 3DS, 닌텐도 3DS XL",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "49,000"
+  },
+  {
+    "title": "포켓몬스터Pt 기라티나",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb15.png",
+    "date": "2009년 7월",
+    "device": "닌텐도 DS 시리즈, 닌텐도 3DS, 닌텐도 3DS XL",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "39,000"
+  },
+  {
+    "title": "포켓몬스터DP 디아루가·펄기아",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/gameImg/gameThumb16.png",
+    "date": "2008년 2월",
+    "device": "닌텐도 DS 시리즈, 닌텐도 3DS, 닌텐도 3DS XL",
+    "company": "한국닌텐도(주)",
+    "Genre": "RPG",
+    "price": "39,000"
+  }
+]
