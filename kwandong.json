@@ -1212,7 +1212,7 @@
   {
     "num": "103",
     "name": "나시",
-    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/kwandong/dex003.png",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/kwandong/dex103.png",
     "type1Txt": "풀",
     "type1Img": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/type/type_glass.png",
     "type2Txt": "에스퍼",
@@ -1767,6 +1767,6 @@
     "type1Img": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/type/type_psychic.png",
     "sex3": "X",
     "evolution": "X",
-    "property": "싱크로"
+    "property": "프레셔"
   }
 ]
