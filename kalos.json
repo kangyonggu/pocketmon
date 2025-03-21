@@ -627,7 +627,7 @@
     "name": "데덴네",
     "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/kalos/dex702.png",
     "type1Txt": "전기",
-    "type1Img": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/type/type_fairy.png",
+    "type1Img": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/type/type_electric.png",
     "type2Txt": "페어리",
     "type2Img": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/type/type_fairy.png",
     "sex1": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/sex/icon_man.png",
@@ -672,7 +672,7 @@
   {
     "num": "706",
     "name": "미끄래곤",
-    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/kalos/dex704.png",
+    "image": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/kalos/dex706.png",
     "type1Txt": "드래곤",
     "type1Img": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/type/type_dragon.png",
     "sex1": "http://zoozoopanda0216.dothome.co.kr/pokemon/dexImg/sex/icon_man.png",
